@@ -35,7 +35,7 @@ public class PetsRequestApi {
         petModelRequest.getTags().add(new TagRequestModel());
         petModelRequest.getTags().get(0).setId(12);
         petModelRequest.getTags().get(0).setName("12");
-        petModelRequest.setStatus("available");
+        petModelRequest.setStatus("available222");
 
         return petModelResponse = given().spec(requestSpecification)
                 .body(petModelRequest)
